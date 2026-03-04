@@ -197,7 +197,7 @@
     "anime": "One Piece",
     "character": "Monkey D. Luffy",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 21,
@@ -206,7 +206,7 @@
     "english": "If you give up, that's the end of the game.",
     "anime": "Slam Dunk",
     "character": "Kaede Rukawa",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
