@@ -978,7 +978,7 @@
     "jlpt": "N3",
     "id": 109,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "分からない単語は辞書で調べてから質問してください。",
@@ -995,7 +995,7 @@
     "english": "I'm going to join a new project from next month.",
     "jlpt": "N3",
     "id": 111,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
