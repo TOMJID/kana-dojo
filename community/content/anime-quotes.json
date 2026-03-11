@@ -96,24 +96,31 @@
     "character": "Ash Ketchum"
   },
   {
-  "japanese": "俺を誰だと思ってやがる!",
-  "romaji": "Ore o dare da to omotte yagaru!",
-  "english": "Who the hell do you think I am! (alt wording 46)",
-  "anime": "Gurren Lagann",
-  "character": "Kamina"
+    "japanese": "俺を誰だと思ってやがる!",
+    "romaji": "Ore o dare da to omotte yagaru!",
+    "english": "Who the hell do you think I am! (alt wording 46)",
+    "anime": "Gurren Lagann",
+    "character": "Kamina"
   },
   {
-  "japanese": "俺は人間をやめるぞ！ジョジョーーッ！！",
-  "romaji": "Ore wa ningen o yameru zo! Jojo!!",
-  "english": "I'm going to stop being human, JoJo! (alt wording 12) (alt wording 64)",
-  "anime": "JoJo's Bizarre Adventure: Phantom Blood",
-  "character": "Dio Brando"
-},
-{
-  "japanese": "イエス！イエス！イエス！イエス！",
-  "romaji": "Iesu! Iesu! Iesu! Iesu!",
-  "english": "Yes! Yes! Yes! Yes! (alt wording 2)",
-  "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-  "character": "DIO"
-}
+    "japanese": "俺は人間をやめるぞ！ジョジョーーッ！！",
+    "romaji": "Ore wa ningen o yameru zo! Jojo!!",
+    "english": "I'm going to stop being human, JoJo! (alt wording 12) (alt wording 64)",
+    "anime": "JoJo's Bizarre Adventure: Phantom Blood",
+    "character": "Dio Brando"
+  },
+  {
+    "japanese": "イエス！イエス！イエス！イエス！",
+    "romaji": "Iesu! Iesu! Iesu! Iesu!",
+    "english": "Yes! Yes! Yes! Yes! (alt wording 2)",
+    "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "character": "DIO"
+  },
+  {
+    "japanese": "何ッ！？",
+    "romaji": "Nani!?",
+    "english": "What?! (alt wording 19) (alt wording 71)",
+    "anime": "Fist of the North Star",
+    "character": "Shin"
+  }
 ]
