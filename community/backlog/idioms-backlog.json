@@ -654,7 +654,7 @@
     "meaning": "Not feel like doing it. (Set 4)",
     "id": 73,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "胸を張る",
@@ -663,7 +663,7 @@
     "meaning": "Be proud/confident. (Set 4)",
     "id": 74,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "鼻が高い",
@@ -672,7 +672,7 @@
     "meaning": "Feel proud. (Set 4)",
     "id": 75,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "首を長くする",
@@ -681,7 +681,7 @@
     "meaning": "Wait eagerly. (Set 4)",
     "id": 76,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "水に流す",
@@ -690,7 +690,7 @@
     "meaning": "Let bygones be bygones. (Set 4)",
     "id": 77,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "念には念を入れる",
@@ -699,7 +699,7 @@
     "meaning": "Take extra care. (Set 4)",
     "id": 78,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "立つ鳥跡を濁さず",
@@ -708,7 +708,7 @@
     "meaning": "Leave cleanly without trouble. (Set 4)",
     "id": 79,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "手に入れる",
@@ -717,7 +717,7 @@
     "meaning": "Obtain something. (Set 4)",
     "id": 80,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "猫の手も借りたい",
@@ -726,7 +726,7 @@
     "meaning": "Extremely busy and desperate for help. (Set 5)",
     "id": 81,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "頭が上がらない",
@@ -735,7 +735,7 @@
     "meaning": "Feel indebted or unable to oppose someone. (Set 5)",
     "id": 82,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "腰が重い",
@@ -744,7 +744,7 @@
     "meaning": "Slow to start doing something. (Set 5)",
     "id": 83,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "顔が広い",
@@ -753,7 +753,7 @@
     "meaning": "Have many connections. (Set 5)",
     "id": 84,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "口が堅い",
@@ -762,7 +762,7 @@
     "meaning": "Can keep secrets. (Set 5)",
     "id": 85,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "気が短い",
@@ -771,7 +771,7 @@
     "meaning": "Impatient temperament. (Set 5)",
     "id": 86,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "腹が立つ",
@@ -780,7 +780,7 @@
     "meaning": "Get angry. (Set 5)",
     "id": 87,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "手を抜く",
@@ -789,7 +789,7 @@
     "meaning": "Do less than one should. (Set 5)",
     "id": 88,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "目がない",
@@ -797,7 +797,7 @@
     "english": "No eyes",
     "meaning": "Have a weakness for something. (Set 5)",
     "id": 89,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
