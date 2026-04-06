@@ -111,6 +111,16 @@ export const celebrationBounceVariants = {
   },
 };
 
+export const celebrationExplodeContainerVariants = {
+  idle: {},
+  celebrate: {
+    transition: {
+      staggerChildren: 0.18,
+      delayChildren: 0.08,
+    },
+  },
+};
+
 const tileBaseStyles =
   'relative flex items-center justify-center rounded-3xl px-6 sm:px-8 py-3 border-b-10 transition-all duration-150';
 
@@ -198,7 +208,7 @@ BlankTile.displayName = 'BlankTile';
 
 export type BottomBarState = 'check' | 'correct' | 'wrong';
 
-export const useWordBuildingActionKey = (
+export const useTilesModeActionKey = (
   buttonRef: RefObject<HTMLButtonElement | null>,
 ) => {
   useEffect(() => {
@@ -216,3 +226,6 @@ export const useWordBuildingActionKey = (
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [buttonRef]);
 };
+
+// Temporary compatibility export while legacy imports are migrated.
+export const useWordBuildingActionKey = useTilesModeActionKey;
