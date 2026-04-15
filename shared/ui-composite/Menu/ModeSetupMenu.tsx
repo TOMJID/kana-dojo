@@ -34,6 +34,13 @@ interface ModeSetupMenuProps {
   mode?: 'train' | 'blitz' | 'gauntlet';
 }
 
+type GameModeOption = {
+  id: 'Pick' | 'Type';
+  title: string;
+  description: string;
+  icon: typeof MousePointerClick;
+};
+
 const difficultyIcons: Record<GauntletDifficulty, React.ReactNode> = {
   normal: <Shield size={20} />,
   hard: <Zap size={20} />,
@@ -120,15 +127,20 @@ const ModeSetupMenu = ({
           ? selectedGameModeVocab
           : '';
 
-  const setSelectedGameMode = useMemo(
-    () =>
-      currentDojo === 'kana'
-        ? setSelectedGameModeKana
-        : currentDojo === 'kanji'
-          ? setSelectedGameModeKanji
-          : currentDojo === 'vocabulary'
-            ? setSelectedGameModeVocab
-            : () => {},
+  const setSelectedGameMode = useCallback(
+    (nextMode: 'Pick' | 'Type') => {
+      if (currentDojo === 'kana') {
+        setSelectedGameModeKana(nextMode);
+        return;
+      }
+      if (currentDojo === 'kanji') {
+        setSelectedGameModeKanji(nextMode);
+        return;
+      }
+      if (currentDojo === 'vocabulary') {
+        setSelectedGameModeVocab(nextMode);
+      }
+    },
     [
       currentDojo,
       setSelectedGameModeKana,
@@ -187,7 +199,7 @@ const ModeSetupMenu = ({
     persistDuration,
   ]);
 
-  const gameModes = [
+  const gameModes: GameModeOption[] = [
     {
       id: 'Pick',
       title: 'Pick',
@@ -465,12 +477,7 @@ function GameModeCards({
   selectedGameMode,
   onSelect,
 }: {
-  gameModes: Array<{
-    id: 'Pick' | 'Type';
-    title: string;
-    description: string;
-    icon: typeof MousePointerClick;
-  }>;
+  gameModes: GameModeOption[];
   selectedGameMode: string;
   onSelect: (mode: 'Pick' | 'Type') => void;
 }) {
